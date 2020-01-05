@@ -10,7 +10,6 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    this.logger.error('Die', AppController.name);
     return this.appService.getHello();
   }
 }

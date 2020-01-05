@@ -12,6 +12,8 @@ import { AppService } from './app.service';
   imports: [
     LoggerModule.forRoot({
       prettyPrint: process.env.NODE_ENV !== 'production',
+      autoLogging: true,
+      useLevelLabels: true,
     }),
   ],
   controllers: [AppController],
