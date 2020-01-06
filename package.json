@@ -21,10 +21,12 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@godaddy/terminus": "4.3.1",
     "@nestjs/common": "^6.7.2",
     "@nestjs/core": "^6.7.2",
     "@nestjs/platform-express": "^6.7.2",
     "@nestjs/swagger": "^4.1.2",
+    "@nestjs/terminus": "6.5.5",
     "cross-env": "6.0.3",
     "nestjs-pino": "0.6.0",
     "reflect-metadata": "^0.1.13",
